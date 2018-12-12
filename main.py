@@ -13,4 +13,4 @@ for i in range(1000):
     for i in word.text:
         elem.send_keys(i) # send a letter of the world every 0.009 seconds
         time.sleep(.009)
-    elem.send_keys(Keys.SPACE) # then send space
+    elem.send_keys(Keys.SPACE) # then send space button
